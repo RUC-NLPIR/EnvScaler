@@ -53,6 +53,7 @@ python env_build_demo.py
 ## 👀 Overview
 
 **EnvScaler** is an automated framework that mass-produces executable, stateful, tool-based environments for training large-language-model agents. 
+
 <p align="center">
     <img src="Figs/envscaler_overview.png" width="60%"> <br>
   Overview of <b>EnvScaler</b>.

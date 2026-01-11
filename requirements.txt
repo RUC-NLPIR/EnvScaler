@@ -1,0 +1,16 @@
+# Note: This requirements.txt does not include dependencies for SFT (LlamaFactory) and RL (ROLL).
+# Please refer to the corresponding library documentation for additional configuration requirements.
+
+transformers
+numpy
+pydantic
+python-dotenv
+openai
+tqdm
+rich
+jsonpickle
+mpmath
+matplotlib
+scipy
+scikit-learn
+adjustText
