@@ -211,6 +211,10 @@ vllm serve your-model-path \
 cd interact_with_env
 python app.py
 
+# 环境交互Debug
+cd interact_with_env
+python run_main_debug.py
+
 # 环境构建演示
 cd skel_builder
 python env_build_demo.py
@@ -230,7 +234,7 @@ python env_build_demo.py
 
 ## 📚 Citation
 
-If you find our work helpful, please consider citing it. We greatly appreciate your support.
+如果您觉得我们的工作对您有所帮助，请考虑引用。我们非常感谢您的支持。
 
 ```bibtex
 TODO

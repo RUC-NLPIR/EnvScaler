@@ -214,6 +214,10 @@ Run the demo to verify your setup:
 cd interact_with_env
 python app.py
 
+# Environment interaction Debug
+cd interact_with_env
+python run_main_debug.py
+
 # Environment building demo
 cd skel_builder
 python env_build_demo.py
