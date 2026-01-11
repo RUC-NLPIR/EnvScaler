@@ -1,0 +1,37 @@
+### model
+model_name_or_path: Qwen/Qwen3-4B
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: full
+deepspeed: examples/deepspeed/ds_z3_config.json
+
+### dataset (Note: mask history=True)
+dataset: alpaca_mask_history_envscaler_sft_traj_9k
+template: qwen3
+mask_history: True
+cutoff_len: 32768
+max_samples: 1000000
+overwrite_cache: true
+preprocessing_num_workers: 16
+
+### output
+output_dir: /path/sft_Qwen3-4B
+logging_steps: 1
+save_steps: 100
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 32
+learning_rate: 1.0e-6
+num_train_epochs: 3
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+
+report_to: wandb
