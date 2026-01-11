@@ -1,7 +1,10 @@
 # 评估
 
-我们在BFCL-v3 Multi-Turn, Tau-Bench, ACEBench-Agent基准进行评估实验 (在推理模式下，使用LLM自身的FC接口)。
+<div align="left">
+  <a href="README_ZH.md">中文</a> | <a href="README.md">English</a>
+</div>
 
+我们在BFCL-v3 Multi-Turn, Tau-Bench, ACEBench-Agent基准进行评估实验 (在推理模式下，使用LLM自身的FC接口)。
 
 ## 评估基准
 
