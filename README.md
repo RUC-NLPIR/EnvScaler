@@ -5,20 +5,20 @@
 
 
 <div align="center">
-  <a href="https://arxiv.org/abs/TODO ">
-    <img src="https://img.shields.io/badge/Paper-arXiv-b5212f.svg?logo=arxiv " alt="Arxiv">
+  <a href="https://arxiv.org/abs/TODO">
+    <img src="https://img.shields.io/badge/Paper-arXiv-b5212f.svg?logo=arxiv" alt="Arxiv">
   </a>
-  <a href="https://huggingface.co/collections/XXHStudyHard/envscaler ">
-    <img src="https://img.shields.io/badge/Model-Hugging%20Face-blue?logo=huggingface " alt="Hugging Face Models">
+  <a href="https://huggingface.co/collections/XXHStudyHard/envscaler">
+    <img src="https://img.shields.io/badge/Model-Hugging%20Face-blue?logo=huggingface" alt="Hugging Face Models">
   </a>
-  <a href="https://huggingface.co/collections/XXHStudyHard/envscaler ">
-    <img src="https://img.shields.io/badge/Dataset-Hugging%20Face-blue?logo=huggingface " alt="Hugging Face Datasets">
+  <a href="https://huggingface.co/collections/XXHStudyHard/envscaler">
+    <img src="https://img.shields.io/badge/Dataset-Hugging%20Face-blue?logo=huggingface" alt="Hugging Face Datasets">
   </a>
-  <a href="https://opensource.org/licenses/MIT ">
-    <img src="https://img.shields.io/badge/LICENSE-MIT-green.svg " alt="License">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/LICENSE-MIT-green.svg" alt="License">
   </a>
-  <a href="https://www.python.org/downloads/release/python-312/ ">
-    <img src="https://img.shields.io/badge/Python-3.10+-blue.svg " alt="Python 3.10+">
+  <a href="https://www.python.org/downloads/release/python-312/">
+    <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" alt="Python 3.10+">
   </a>
 </div>
 
