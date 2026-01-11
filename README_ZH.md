@@ -26,6 +26,9 @@
   <a href="README_ZH.md">中文</a> | <a href="README.md">English</a>
 </div>
 
+
+<h5 align="center">如果您喜欢我们的项目，请在GitHub上给我们点个 ⭐。我们会非常感谢您的支持。</h5>
+
 ## 🎬 Demo
 
 ### Env-Agent-User Interaction
@@ -43,12 +46,12 @@
     <video src="https://github.com/user-attachments/assets/fd947e46-014a-41cd-87bb-6744c3dd5b32" />
 </div>
 
-To locally run the demo that interacting with Envs:
+您可以本地运行与Env交互的demo:
 ```bash
 cd interact_with_env
 python app.py
 ```
-To locally run the demo that builing Envs from scratch:
+您可以本地运行从零构建Env骨架的demo:
 ```bash
 cd skel_builder
 python env_build_demo.py
@@ -144,7 +147,7 @@ EnvScaler/
 
 > 💡 **提示**: 我们分别在每个模块下提供了详细的实现文档。
 
-1. **[skel_builder/](skel_builder/README_ZH.md)** - 环境骨架构建框架，从任务数据集中自动生成可执行的环境类
+1. **[skel_builder/](skel_builder/README_ZH.md)** - 环境骨架构建框架，从现有任务中自动生成可执行的环境类
 2. **[scen_generator/](scen_generator/README_ZH.md)** - 场景生成框架，为环境骨架生成状态数据, 任务场景和检查函数
 3. **[interact_with_env/](interact_with_env/README_ZH.md)** - Agent与环境交互模块，支持（1）与合成的环境交互来采集训练数据以及（2）基准评估
 4. **[sft/](sft/README_ZH.md)** - 监督微调实现，基于LlamaFactory进行SFT训练
@@ -235,4 +238,4 @@ TODO
 
 ## 📞 Contact
 
-For any questions or feedback, please reach out to us at [songxiaoshuai@ruc.edu.cn](songxiaoshuai@ruc.edu.cn).
+如有任何疑问或反馈，请通过[songxiaoshuai@ruc.edu.cn](songxiaoshuai@ruc.edu.cn) 联系我们。
