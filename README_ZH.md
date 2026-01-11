@@ -93,21 +93,21 @@ python env_build_demo.py
 
 ## 👀 Overview
 
-**EnvScaler** 是一个自动化，可扩展的框架，通过程序实现可运行、带状态、支持工具交互的环境，用于训练大语言模型智能体。
+**EnvScaler** 是一个自动化，可扩展的框架，通过程序实现可运行、带状态、支持工具交互的环境，用于训练LLM智能体。
 
 <p align="center">
     <img src="Figs/envscaler_overview.png" width="60%"> <br>
   Overview of <b>EnvScaler</b>.
 </p>
 
-**SkelBuilder** 是 EnvScaler 的第一阶段。它从现有的开源文本任务出发，挖掘潜在的领域描述，规划对应的状态模式与业务规则，并生成一个功能完整的 Python 类，其方法对外暴露工具接口。双智能体循环环境质检（一个随机提出工具调用，另一个检查代码、返回值及状态变化），保证质量与一致性。
+**SkelBuilder** 是 EnvScaler 的第一阶段。它 (1) 从现有的开源文本任务出发，挖掘潜在的领域描述; (2) 规划对应的状态模式与业务规则，并生成一个功能完整的 Python 类，其方法对外暴露工具接口; (3) 双智能体循环环境质检（一个随机发起工具调用，另一个检查代码、返回值及状态变化），保证质量与一致性。
 
 <p align="center">
     <img src="Figs/skelbuilder_framework.png" width="98%"> <br>
   Framework of <b>SkelBuilder</b>.
 </p>
 
-**ScenGenerator** 是第二阶段。给定一个环境骨架，它首先提示LLMs生成初始状态/数据库，然后创建一个从该状态出发可解决的挑战性任务。最后，它将任务分解为若干独立检查点，并把每个检查点转换成针对最终状态的 Python 布尔函数，提供基于规则的奖励信号，使得无论智能体采取何种解法路径，都能对轨迹进行评估。
+**ScenGenerator** 是第二阶段。给定一个环境骨架，它首先提示LLMs生成初始状态/数据库，然后创建一个从该状态出发可解决的挑战性任务。最后，它将任务分解为若干独立检查点，并把每个检查点转换成针对环境最终状态的 Python 布尔函数，提供基于规则,可验证的奖励信号。
  
 <p align="center">
     <img src="Figs/scengenerator_framework.png" width="98%"> <br>
