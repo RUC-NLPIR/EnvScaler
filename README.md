@@ -32,17 +32,17 @@
 
 ### Env-Agent-User Interaction
 <div align="center">
-    <video src="https://github.com/user-attachments/assets/613b46fd-63db-4050-91d2-f7aca2a766e3 " />
+    <video src="https://github.com/user-attachments/assets/613b46fd-63db-4050-91d2-f7aca2a766e3" />
 </div>
 
 ### Env-Agent Interaction
 <div align="center">
-    <video src="https://github.com/user-attachments/assets/b8186257-a22d-4ec1-9ccf-82f6bd23a4b5 " />
+    <video src="https://github.com/user-attachments/assets/b8186257-a22d-4ec1-9ccf-82f6bd23a4b5" />
 </div>
 
 ### Building Environment From Scratch
 <div align="center">
-    <video src="https://github.com/user-attachments/assets/fd947e46-014a-41cd-87bb-6744c3dd5b32 " />
+    <video src="https://github.com/user-attachments/assets/fd947e46-014a-41cd-87bb-6744c3dd5b32" />
 </div>
 
 To locally run the demo that interacting with Envs:
