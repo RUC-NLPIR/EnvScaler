@@ -5,7 +5,7 @@
 
 
 <div align="center">
-  <a href="https://arxiv.org/abs/TODO">
+  <a href="https://arxiv.org/abs/2601.05808">
     <img src="https://img.shields.io/badge/Paper-arXiv-b5212f.svg?logo=arxiv" alt="Arxiv">
   </a>
   <a href="https://huggingface.co/collections/XXHStudyHard/envscaler">
