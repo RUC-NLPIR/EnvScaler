@@ -240,14 +240,11 @@ Now you can use each module of EnvScaler independently:
 If you find our work helpful, please consider citing it. We greatly appreciate your support.
 
 ```bibtex
-@misc{song2026envscalerscalingtoolinteractiveenvironments,
-      title={EnvScaler: Scaling Tool-Interactive Environments for LLM Agent via Programmatic Synthesis}, 
-      author={Xiaoshuai Song and Haofei Chang and Guanting Dong and Yutao Zhu and Zhicheng Dou and Ji-Rong Wen},
-      year={2026},
-      eprint={2601.05808},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2601.05808}, 
+@article{song2026envscaler,
+  title={EnvScaler: Scaling Tool-Interactive Environments for LLM Agent via Programmatic Synthesis},
+  author={Song, Xiaoshuai and Chang, Haofei and Dong, Guanting and Zhu, Yutao and Dou, Zhicheng and Wen, Ji-Rong},
+  journal={arXiv preprint arXiv:2601.05808},
+  year={2026}
 }
 ```
 
