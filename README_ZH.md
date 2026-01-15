@@ -237,14 +237,11 @@ python env_build_demo.py
 如果您觉得我们的工作对您有所帮助，请考虑引用。我们非常感谢您的支持。
 
 ```bibtex
-@misc{song2026envscalerscalingtoolinteractiveenvironments,
-      title={EnvScaler: Scaling Tool-Interactive Environments for LLM Agent via Programmatic Synthesis}, 
-      author={Xiaoshuai Song and Haofei Chang and Guanting Dong and Yutao Zhu and Zhicheng Dou and Ji-Rong Wen},
-      year={2026},
-      eprint={2601.05808},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2601.05808}, 
+@article{song2026envscaler,
+  title={EnvScaler: Scaling Tool-Interactive Environments for LLM Agent via Programmatic Synthesis},
+  author={Song, Xiaoshuai and Chang, Haofei and Dong, Guanting and Zhu, Yutao and Dou, Zhicheng and Wen, Ji-Rong},
+  journal={arXiv preprint arXiv:2601.05808},
+  year={2026}
 }
 ```
 
