@@ -20,9 +20,6 @@
   <a href="https://huggingface.co/collections/XXHStudyHard/envscaler">
     <img src="https://img.shields.io/badge/Dataset-Hugging%20Face-blue?logo=huggingface" alt="Hugging Face Datasets">
   </a>
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/LICENSE-MIT-green.svg" alt="License">
-  </a>
   <a href="https://www.python.org/downloads/release/python-312/">
     <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" alt="Python 3.10+">
   </a>
