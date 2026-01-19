@@ -102,7 +102,7 @@ def parse_action(struct_response: dict):
         if isinstance(kwargs, str):
             try:
                 kwargs = kwargs.strip()
-                kwargs = json.loads(tool_call["function"]["arguments"])
+                kwargs = json.loads(tool_call["function"]["arguments"]) if tool_call["function"]["arguments"] else {}
             except Exception as e:
                 kwargs = None
                 print(f"Response to Action Failed to parse tool call arguments: {tool_call['function']['arguments']}, error: {e}")
