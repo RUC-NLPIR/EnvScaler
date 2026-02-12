@@ -143,11 +143,10 @@ class EnvScalerBaseEnv(gem.Env):
     # Load environment and initialize instance
     # ==============================
     
-    def load_env_and_instance(self, env_id: int, init_config: dict):
+    def load_env_and_instance(self, env_id: str, init_config: dict):
         """Load environment and initialize instance based on env_id."""
-        # Validate env_id
-        if env_id < 0 or env_id >= len(self.env_items):
-            raise ValueError(f"Invalid env_id {env_id}, expected range [0, {len(self.env_items)})")
+        if env_id not in self.env_items:
+            raise ValueError(f"Invalid env_id '{env_id}', not found in env_items")
         self.env_item = self.env_items[env_id]
         env_class_code = self.env_item["env_class_code"]
         env_class_name = self.task_item["env_class_name"]
