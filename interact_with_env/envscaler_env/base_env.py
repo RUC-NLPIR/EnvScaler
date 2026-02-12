@@ -134,7 +134,7 @@ class EnvScalerBaseEnv:
     # Load environment and initialize instance
     # ==============================
     
-    def load_env_and_instance(self, env_id: int, init_config: dict):
+    def load_env_and_instance(self, env_id: str, init_config: dict):
         """Load environment and initialize instance based on env_id."""
         self.env_item = self.env_items[env_id]
         env_class_code = self.env_item["env_class_code"]
