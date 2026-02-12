@@ -13,8 +13,8 @@ def openai_llm_inference(
         max_tokens: int = None):
     load_dotenv()
     client = OpenAI(
-        api_key=os.getenv("OPENAI_API_KEY"),
-        base_url=os.getenv("OPENAI_BASE_URL"),
+        api_key=os.getenv("USER_OPENAI_API_KEY"),
+        base_url=os.getenv("USER_OPENAI_BASE_URL"),
     )
     retries = 0
     max_retries = 10
