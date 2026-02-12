@@ -52,8 +52,8 @@ def llm_inference(
     """Non-streaming LLM inference."""
     if provider == "openai":
         client = OpenAI(
-            api_key=os.getenv("OPENAI_API_KEY"),
-            base_url=os.getenv("OPENAI_BASE_URL"),
+            api_key=os.getenv("USER_OPENAI_API_KEY"),
+            base_url=os.getenv("USER_OPENAI_BASE_URL"),
         )
     else:
         # add other provider support here

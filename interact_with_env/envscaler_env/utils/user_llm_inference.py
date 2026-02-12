@@ -20,7 +20,7 @@ def openai_llm_inference(
         api_key: str = None,
         base_url: str = None):
     """Call OpenAI API with retry mechanism."""
-    client = OpenAI(api_key=api_key or os.getenv("OPENAI_API_KEY"), base_url=base_url or os.getenv("OPENAI_BASE_URL"))
+    client = OpenAI(api_key=api_key or os.getenv("USER_OPENAI_API_KEY"), base_url=base_url or os.getenv("USER_OPENAI_BASE_URL"))
     retries = 0
     max_retries = 10
     while retries < max_retries:
