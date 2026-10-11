@@ -31,6 +31,20 @@
 
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub. We greatly appreciate your support.</h5>
 
+
+## 📣 Latest News
+
+[Oct 12, 2026]: 🚀 We released Agent-Reflex, teaching language agents to act reflectively under noisy tool feedback and user corrections. See the [GitHub](https://github.com/RUC-NLPIR/Agent-Reflex).
+
+[Aug 10, 2026]: 🚀 We released Agent-World, evolving general agent intelligence by scaling real-world environments. See the [arXiv](https://arxiv.org/abs/2604.18292) and [GitHub](https://github.com/RUC-NLPIR/Agent-World).
+
+[July 02, 2026]: 🎉 Our paper EnvScaler has been accepted at ACL 2026 Findings!
+
+[Jan 12, 2026]: 📄 Our EnvScaler paper is now available on [arXiv](https://arxiv.org/abs/2601.05808) and [Hugging Face Paper](https://huggingface.co/papers/2601.05808).
+
+[Jan 09, 2026]: 🚀🚀🚀 Full codebase of EnvScaler released, together with the 🤗 [HF models](https://huggingface.co/collections/XXHStudyHard/envscaler) (Qwen3-1.7B, 4B, and 8B) and datasets.
+
+
 ## 🎬 Demo
 
 ### Env-Agent-User Interaction
