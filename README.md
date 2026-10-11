@@ -34,7 +34,7 @@
 
 ## 📣 Latest News
 
-[Oct 12, 2026]: 🚀 We released Agent-Reflex, teaching language agents to act reflectively under noisy tool feedback and user corrections. See the [GitHub](https://github.com/RUC-NLPIR/Agent-Reflex).
+[Oct 12, 2026]: 🚀 We released Agent-Reflex, teaching language agents to act reflectively under noisy environments. See the [GitHub](https://github.com/RUC-NLPIR/Agent-Reflex).
 
 [Aug 10, 2026]: 🚀 We released Agent-World, evolving general agent intelligence by scaling real-world environments. See the [arXiv](https://arxiv.org/abs/2604.18292) and [GitHub](https://github.com/RUC-NLPIR/Agent-World).
 
