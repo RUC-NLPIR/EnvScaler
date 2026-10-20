@@ -272,6 +272,16 @@ If you find our work helpful, please consider citing it. We greatly appreciate y
   year    = {2026},
   url     = {https://arxiv.org/abs/2604.18292}
 }
+
+@misc{dong2026agentreflex,
+  title={Agent-Reflex: Teaching Language Agents to Act Reflectively},
+  author={Guanting Dong and Xinyu Yang and Jiajie Jin and Yuyang Hu and Xiaoshuai Song and Yifei Chen and Xiaoxi Li and Jiejun Tan and Yutao Zhu and Tat-Seng Chua and Ji-Rong Wen and Zhicheng Dou},
+  year={2026},
+  eprint={2610.17953},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2610.17953},
+}
 ```
 
 ## 📞 Contact
